@@ -106,7 +106,7 @@
   font-size: 4rem;
   font-weight: normal;
   line-height: 1em;
-  color: #0E6EB8;
+  color: #48120E;
   text-transform: uppercase;
   text-align: center;
 }
@@ -320,7 +320,7 @@
 .ui.red.statistics .statistic > .value,
 .ui.statistics .red.statistic > .value,
 .ui.red.statistic > .value {
-  color: #B03060;
+  color: #AB3E16;
 }
 .ui.orange.statistics .statistic > .value,
 .ui.statistics .orange.statistic > .value,
@@ -330,7 +330,7 @@
 .ui.yellow.statistics .statistic > .value,
 .ui.statistics .yellow.statistic > .value,
 .ui.yellow.statistic > .value {
-  color: #FFD700;
+  color: #EFAA52;
 }
 .ui.olive.statistics .statistic > .value,
 .ui.statistics .olive.statistic > .value,
@@ -370,12 +370,12 @@
 .ui.brown.statistics .statistic > .value,
 .ui.statistics .brown.statistic > .value,
 .ui.brown.statistic > .value {
-  color: #A52A2A;
+  color: #48120E;
 }
 .ui.grey.statistics .statistic > .value,
 .ui.statistics .grey.statistic > .value,
 .ui.grey.statistic > .value {
-  color: #FE9A76;
+  color: #F8F3E6;
 }
 
 /*--------------
@@ -384,7 +384,7 @@
 
 .ui.inverted.statistics .statistic > .value,
 .ui.inverted.statistic .value {
-  color: #FFFFFF;
+  color: #F8F3E6;
 }
 .ui.inverted.statistics .statistic > .label,
 .ui.inverted.statistic .label {

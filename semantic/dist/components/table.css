@@ -17,7 +17,7 @@
 /* Prototype */
 .ui.table {
   width: 100%;
-  background: #FFFFFF;
+  background: #F8F3E6;
   margin: 1em 0em;
   border: 1px solid rgba(34, 36, 38, 0.15);
   -webkit-box-shadow: none;
@@ -248,26 +248,26 @@
   background: transparent;
   font-weight: normal;
   color: rgba(0, 0, 0, 0.4);
-  -webkit-box-shadow: -1px -1px 0px 1px #FFFFFF;
-          box-shadow: -1px -1px 0px 1px #FFFFFF;
+  -webkit-box-shadow: -1px -1px 0px 1px #F8F3E6;
+          box-shadow: -1px -1px 0px 1px #F8F3E6;
 }
 .ui.definition.table tfoot:not(.full-width) th:first-child {
   pointer-events: none;
   background: transparent;
   font-weight: rgba(0, 0, 0, 0.4);
   color: normal;
-  -webkit-box-shadow: 1px 1px 0px 1px #FFFFFF;
-          box-shadow: 1px 1px 0px 1px #FFFFFF;
+  -webkit-box-shadow: 1px 1px 0px 1px #F8F3E6;
+          box-shadow: 1px 1px 0px 1px #F8F3E6;
 }
 
 /* Remove Border */
 .ui.celled.definition.table thead:not(.full-width) th:first-child {
-  -webkit-box-shadow: 0px -1px 0px 1px #FFFFFF;
-          box-shadow: 0px -1px 0px 1px #FFFFFF;
+  -webkit-box-shadow: 0px -1px 0px 1px #F8F3E6;
+          box-shadow: 0px -1px 0px 1px #F8F3E6;
 }
 .ui.celled.definition.table tfoot:not(.full-width) th:first-child {
-  -webkit-box-shadow: 0px 1px 0px 1px #FFFFFF;
-          box-shadow: 0px 1px 0px 1px #FFFFFF;
+  -webkit-box-shadow: 0px 1px 0px 1px #F8F3E6;
+          box-shadow: 0px 1px 0px 1px #F8F3E6;
 }
 
 /* Highlight Defining Column */
@@ -643,11 +643,11 @@
 
 /* Red */
 .ui.red.table {
-  border-top: 0.2em solid #B03060;
+  border-top: 0.2em solid #AB3E16;
 }
 .ui.inverted.red.table {
-  background-color: #B03060 !important;
-  color: #FFFFFF !important;
+  background-color: #AB3E16 !important;
+  color: #F8F3E6 !important;
 }
 
 /* Orange */
@@ -656,16 +656,16 @@
 }
 .ui.inverted.orange.table {
   background-color: #FE9A76 !important;
-  color: #FFFFFF !important;
+  color: #F8F3E6 !important;
 }
 
 /* Yellow */
 .ui.yellow.table {
-  border-top: 0.2em solid #FFD700;
+  border-top: 0.2em solid #EFAA52;
 }
 .ui.inverted.yellow.table {
-  background-color: #FFD700 !important;
-  color: #FFFFFF !important;
+  background-color: #EFAA52 !important;
+  color: #F8F3E6 !important;
 }
 
 /* Olive */
@@ -674,7 +674,7 @@
 }
 .ui.inverted.olive.table {
   background-color: #32CD32 !important;
-  color: #FFFFFF !important;
+  color: #F8F3E6 !important;
 }
 
 /* Green */
@@ -683,7 +683,7 @@
 }
 .ui.inverted.green.table {
   background-color: #016936 !important;
-  color: #FFFFFF !important;
+  color: #F8F3E6 !important;
 }
 
 /* Teal */
@@ -692,7 +692,7 @@
 }
 .ui.inverted.teal.table {
   background-color: #008080 !important;
-  color: #FFFFFF !important;
+  color: #F8F3E6 !important;
 }
 
 /* Blue */
@@ -701,7 +701,7 @@
 }
 .ui.inverted.blue.table {
   background-color: #0E6EB8 !important;
-  color: #FFFFFF !important;
+  color: #F8F3E6 !important;
 }
 
 /* Violet */
@@ -710,7 +710,7 @@
 }
 .ui.inverted.violet.table {
   background-color: #EE82EE !important;
-  color: #FFFFFF !important;
+  color: #F8F3E6 !important;
 }
 
 /* Purple */
@@ -719,7 +719,7 @@
 }
 .ui.inverted.purple.table {
   background-color: #B413EC !important;
-  color: #FFFFFF !important;
+  color: #F8F3E6 !important;
 }
 
 /* Pink */
@@ -728,34 +728,34 @@
 }
 .ui.inverted.pink.table {
   background-color: #FF1493 !important;
-  color: #FFFFFF !important;
+  color: #F8F3E6 !important;
 }
 
 /* Brown */
 .ui.brown.table {
-  border-top: 0.2em solid #A52A2A;
+  border-top: 0.2em solid #48120E;
 }
 .ui.inverted.brown.table {
-  background-color: #A52A2A !important;
-  color: #FFFFFF !important;
+  background-color: #48120E !important;
+  color: #F8F3E6 !important;
 }
 
 /* Grey */
 .ui.grey.table {
-  border-top: 0.2em solid #FE9A76;
+  border-top: 0.2em solid #F8F3E6;
 }
 .ui.inverted.grey.table {
-  background-color: #FE9A76 !important;
-  color: #FFFFFF !important;
+  background-color: #F8F3E6 !important;
+  color: #F8F3E6 !important;
 }
 
 /* Black */
 .ui.black.table {
-  border-top: 0.2em solid #0E6EB8;
+  border-top: 0.2em solid #48120E;
 }
 .ui.inverted.black.table {
-  background-color: #0E6EB8 !important;
-  color: #FFFFFF !important;
+  background-color: #48120E !important;
+  color: #F8F3E6 !important;
 }
 
 /*--------------
@@ -991,7 +991,7 @@
 /* Definition */
 .ui.inverted.definition.table tfoot:not(.full-width) th:first-child,
 .ui.inverted.definition.table thead:not(.full-width) th:first-child {
-  background: #FFFFFF;
+  background: #F8F3E6;
 }
 .ui.inverted.definition.table tr td:first-child {
   background: rgba(255, 255, 255, 0.02);

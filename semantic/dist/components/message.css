@@ -264,7 +264,7 @@
 ---------------*/
 
 .ui.black.message {
-  background-color: #0E6EB8;
+  background-color: #48120E;
   color: rgba(255, 255, 255, 0.9);
 }
 
@@ -360,17 +360,17 @@
 /* Colors */
 .ui.inverted.message,
 .ui.black.message {
-  background-color: #0E6EB8;
+  background-color: #48120E;
   color: rgba(255, 255, 255, 0.9);
 }
 .ui.red.message {
   background-color: #FFE8E6;
-  color: #B03060;
-  -webkit-box-shadow: 0px 0px 0px 1px #B03060 inset, 0px 0px 0px 0px rgba(0, 0, 0, 0);
-          box-shadow: 0px 0px 0px 1px #B03060 inset, 0px 0px 0px 0px rgba(0, 0, 0, 0);
+  color: #AB3E16;
+  -webkit-box-shadow: 0px 0px 0px 1px #AB3E16 inset, 0px 0px 0px 0px rgba(0, 0, 0, 0);
+          box-shadow: 0px 0px 0px 1px #AB3E16 inset, 0px 0px 0px 0px rgba(0, 0, 0, 0);
 }
 .ui.red.message .header {
-  color: #9c2b55;
+  color: #943613;
 }
 .ui.orange.message {
   background-color: #FFEDDE;
@@ -455,12 +455,12 @@
 }
 .ui.brown.message {
   background-color: #F1E2D3;
-  color: #A52A2A;
-  -webkit-box-shadow: 0px 0px 0px 1px #A52A2A inset, 0px 0px 0px 0px rgba(0, 0, 0, 0);
-          box-shadow: 0px 0px 0px 1px #A52A2A inset, 0px 0px 0px 0px rgba(0, 0, 0, 0);
+  color: #48120E;
+  -webkit-box-shadow: 0px 0px 0px 1px #48120E inset, 0px 0px 0px 0px rgba(0, 0, 0, 0);
+          box-shadow: 0px 0px 0px 1px #48120E inset, 0px 0px 0px 0px rgba(0, 0, 0, 0);
 }
 .ui.brown.message .header {
-  color: #912525;
+  color: #330d0a;
 }
 
 /*--------------

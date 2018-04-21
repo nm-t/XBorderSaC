@@ -207,11 +207,11 @@ i.bordered.inverted.icon {
 /* Inverted Shapes */
 i.inverted.bordered.icon,
 i.inverted.circular.icon {
-  background-color: #0E6EB8 !important;
-  color: #FFFFFF !important;
+  background-color: #48120E !important;
+  color: #F8F3E6 !important;
 }
 i.inverted.icon {
-  color: #FFFFFF;
+  color: #F8F3E6;
 }
 
 /*-------------------
@@ -221,15 +221,15 @@ i.inverted.icon {
 
 /* Red */
 i.red.icon {
-  color: #B03060 !important;
+  color: #AB3E16 !important;
 }
 i.inverted.red.icon {
   color: #FF695E !important;
 }
 i.inverted.bordered.red.icon,
 i.inverted.circular.red.icon {
-  background-color: #B03060 !important;
-  color: #FFFFFF !important;
+  background-color: #AB3E16 !important;
+  color: #F8F3E6 !important;
 }
 
 /* Orange */
@@ -242,20 +242,20 @@ i.inverted.orange.icon {
 i.inverted.bordered.orange.icon,
 i.inverted.circular.orange.icon {
   background-color: #FE9A76 !important;
-  color: #FFFFFF !important;
+  color: #F8F3E6 !important;
 }
 
 /* Yellow */
 i.yellow.icon {
-  color: #FFD700 !important;
+  color: #EFAA52 !important;
 }
 i.inverted.yellow.icon {
   color: #FFE21F !important;
 }
 i.inverted.bordered.yellow.icon,
 i.inverted.circular.yellow.icon {
-  background-color: #FFD700 !important;
-  color: #FFFFFF !important;
+  background-color: #EFAA52 !important;
+  color: #F8F3E6 !important;
 }
 
 /* Olive */
@@ -268,7 +268,7 @@ i.inverted.olive.icon {
 i.inverted.bordered.olive.icon,
 i.inverted.circular.olive.icon {
   background-color: #32CD32 !important;
-  color: #FFFFFF !important;
+  color: #F8F3E6 !important;
 }
 
 /* Green */
@@ -281,7 +281,7 @@ i.inverted.green.icon {
 i.inverted.bordered.green.icon,
 i.inverted.circular.green.icon {
   background-color: #016936 !important;
-  color: #FFFFFF !important;
+  color: #F8F3E6 !important;
 }
 
 /* Teal */
@@ -294,7 +294,7 @@ i.inverted.teal.icon {
 i.inverted.bordered.teal.icon,
 i.inverted.circular.teal.icon {
   background-color: #008080 !important;
-  color: #FFFFFF !important;
+  color: #F8F3E6 !important;
 }
 
 /* Blue */
@@ -307,7 +307,7 @@ i.inverted.blue.icon {
 i.inverted.bordered.blue.icon,
 i.inverted.circular.blue.icon {
   background-color: #0E6EB8 !important;
-  color: #FFFFFF !important;
+  color: #F8F3E6 !important;
 }
 
 /* Violet */
@@ -320,7 +320,7 @@ i.inverted.violet.icon {
 i.inverted.bordered.violet.icon,
 i.inverted.circular.violet.icon {
   background-color: #EE82EE !important;
-  color: #FFFFFF !important;
+  color: #F8F3E6 !important;
 }
 
 /* Purple */
@@ -333,7 +333,7 @@ i.inverted.purple.icon {
 i.inverted.bordered.purple.icon,
 i.inverted.circular.purple.icon {
   background-color: #B413EC !important;
-  color: #FFFFFF !important;
+  color: #F8F3E6 !important;
 }
 
 /* Pink */
@@ -346,46 +346,46 @@ i.inverted.pink.icon {
 i.inverted.bordered.pink.icon,
 i.inverted.circular.pink.icon {
   background-color: #FF1493 !important;
-  color: #FFFFFF !important;
+  color: #F8F3E6 !important;
 }
 
 /* Brown */
 i.brown.icon {
-  color: #A52A2A !important;
+  color: #48120E !important;
 }
 i.inverted.brown.icon {
   color: #D67C1C !important;
 }
 i.inverted.bordered.brown.icon,
 i.inverted.circular.brown.icon {
-  background-color: #A52A2A !important;
-  color: #FFFFFF !important;
+  background-color: #48120E !important;
+  color: #F8F3E6 !important;
 }
 
 /* Grey */
 i.grey.icon {
-  color: #FE9A76 !important;
+  color: #F8F3E6 !important;
 }
 i.inverted.grey.icon {
   color: #DCDDDE !important;
 }
 i.inverted.bordered.grey.icon,
 i.inverted.circular.grey.icon {
-  background-color: #FE9A76 !important;
-  color: #FFFFFF !important;
+  background-color: #F8F3E6 !important;
+  color: #F8F3E6 !important;
 }
 
 /* Black */
 i.black.icon {
-  color: #0E6EB8 !important;
+  color: #48120E !important;
 }
 i.inverted.black.icon {
   color: #545454 !important;
 }
 i.inverted.bordered.black.icon,
 i.inverted.circular.black.icon {
-  background-color: #0E6EB8 !important;
-  color: #FFFFFF !important;
+  background-color: #48120E !important;
+  color: #F8F3E6 !important;
 }
 
 /*-------------------
@@ -474,7 +474,7 @@ i.icons .corner.icon {
   -webkit-transform: none;
           transform: none;
   font-size: 0.45em;
-  text-shadow: -1px -1px 0 #FFFFFF, 1px -1px 0 #FFFFFF, -1px 1px 0 #FFFFFF, 1px 1px 0 #FFFFFF;
+  text-shadow: -1px -1px 0 #F8F3E6, 1px -1px 0 #F8F3E6, -1px 1px 0 #F8F3E6, 1px 1px 0 #F8F3E6;
 }
 i.icons .top.right.corner.icon {
   top: 0;
@@ -501,7 +501,7 @@ i.icons .bottom.right.corner.icon {
   bottom: 0;
 }
 i.icons .inverted.corner.icon {
-  text-shadow: -1px -1px 0 #0E6EB8, 1px -1px 0 #0E6EB8, -1px 1px 0 #0E6EB8, 1px 1px 0 #0E6EB8;
+  text-shadow: -1px -1px 0 #48120E, 1px -1px 0 #48120E, -1px 1px 0 #48120E, 1px 1px 0 #48120E;
 }
 /*
  * Font Awesome 5.0.8 by @fontawesome - http://fontawesome.io - @fontawesome
