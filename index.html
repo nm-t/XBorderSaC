@@ -25,6 +25,7 @@
   <link rel="stylesheet" type="text/css" href="./semantic/components/icon.css">
   <link rel="stylesheet" type="text/css" href="./semantic/components/sidebar.css">
   <link rel="stylesheet" type="text/css" href="./semantic/components/transition.css">
+  <link rel="stylesheet" href="./swiper.min.css">
 
   <style type="text/css">
 
@@ -112,7 +113,27 @@
         font-size: 1.5em;
       }
     }
-
+    .swiper-container {
+      width: 100%;
+      height: 100%;
+    }
+    .swiper-slide {
+      text-align: center;
+      font-size: 18px;
+      /* Center slide text vertically */
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: -webkit-flex;
+      display: flex;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      -webkit-justify-content: center;
+      justify-content: center;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      -webkit-align-items: center;
+      align-items: center;
+    }
 
   </style>
 
@@ -209,17 +230,37 @@
       </div>
     </div>
 
+      <!-- Swiper -->
+  <div class="swiper-container">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide">
+        
     <div class="ui text container">
-      <h1 class="ui inverted header">
-        8-ox
-      </h1>
-      <h2>Chinese food and homeware subscription box.</h2>
-      <div class="ui huge primary button">Begin <i class="right arrow icon"></i></div>
+        <h1 class="ui inverted header">
+          8-ox
+        </h1>
+        <h2>Chinese food and homeware subscription box.</h2>
+        <div class="ui huge primary button">Begin <i class="right arrow icon"></i></div>
+      </div>
     </div>
+      <div class="swiper-slide">Slide 2</div>
+      <div class="swiper-slide">Slide 3</div>
+      <div class="swiper-slide">Slide 4</div>
+      <div class="swiper-slide">Slide 5</div>
+      <div class="swiper-slide">Slide 6</div>
+      <div class="swiper-slide">Slide 7</div>
+      <div class="swiper-slide">Slide 8</div>
+      <div class="swiper-slide">Slide 9</div>
+      <div class="swiper-slide">Slide 10</div>
+    </div>
+    <!-- Add Arrows -->
+    <div class="swiper-button-next"></div>
+    <div class="swiper-button-prev"></div>
+</div>
   </div>
 
 
-  <!-- SLIDER GOES HERE -->
+
 
 
   <div class="ui vertical stripe segment">
@@ -384,6 +425,18 @@
 </div>
 
 
+  <!-- Swiper JS -->
+  <script src="./swiper.min.js"></script>
+
+  <!-- Initialize Swiper -->
+  <script>
+    var swiper = new Swiper('.swiper-container', {
+      navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+      },
+    });
+  </script>
 
 
 </body></html>
