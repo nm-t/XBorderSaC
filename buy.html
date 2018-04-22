@@ -122,18 +122,39 @@
       }
     }
 
+    .swiper-container {
+      flex-grow: 1;
+    }
+
+    .swiper-slide {
+      text-align: center;
+      font-size: 18px;
+      /* Center slide text vertically */
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: -webkit-flex;
+      display: flex;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      -webkit-justify-content: center;
+      justify-content: center;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      -webkit-align-items: center;
+      align-items: center;
+    }
 
     .swiper-button-next {
-        background-image: URL("data:image/svg+xml;charset=utf-8,%3Csvg xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg' viewBox%3D'0 0 27 44'%3E%3Cpath d%3D'M27%2C22L27%2C22L5%2C44l-2.1-2.1L22.8%2C22L2.9%2C2.1L5%2C0L27%2C22L27%2C22z' fill%3D'%23ffffff'%2F%3E%3C%2Fsvg%3E") !important;
+        background-image: URL("data:image/svg+xml;charset=utf-8,%3Csvg xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg' viewBox%3D'0 0 27 44'%3E%3Cpath d%3D'M27%2C22L27%2C22L5%2C44l-2.1-2.1L22.8%2C22L2.9%2C2.1L5%2C0L27%2C22L27%2C22z' fill%3D'%23EFAA52'%2F%3E%3C%2Fsvg%3E") !important;
     }
 
     .swiper-button-prev {
-      background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg'%20viewBox%3D'0%200%2027%2044'%3E%3Cpath%20d%3D'M0%2C22L22%2C0l2.1%2C2.1L4.2%2C22l19.9%2C19.9L22%2C44L0%2C22L0%2C22L0%2C22z'%20fill%3D'%23ffffff'%2F%3E%3C%2Fsvg%3E") !important;
+      background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg'%20viewBox%3D'0%200%2027%2044'%3E%3Cpath%20d%3D'M0%2C22L22%2C0l2.1%2C2.1L4.2%2C22l19.9%2C19.9L22%2C44L0%2C22L0%2C22L0%2C22z'%20fill%3D'%23EFAA52'%2F%3E%3C%2Fsvg%3E") !important;
 }
   </style>
 
-  <script src="./main.js"></script>
-  <script src="./semantic/dist/components/jquery.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="./semantic/dist/semantic.min.js"></script>
   <script src="./semantic/dist/components/visibility.js"></script>
   <script src="./semantic/dist/components/sidebar.js"></script>
   <script src="./semantic/dist/components/transition.js"></script>
@@ -162,6 +183,13 @@
           .sidebar('attach events', '.toc.item')
           ;
 
+          $("#test").click(function(){
+            $(".test").modal('show');
+          });
+          $(".test").modal({
+            closable: true
+          });
+
       })
       ;
   </script>
@@ -171,6 +199,37 @@
 
   <!-- Page Contents -->
   <div class="pusher">
+
+    <div class="ui fixed bottom sticky">
+
+        <div class="ui four column grid container">
+            <div class="column">
+            </div>
+            <div class="column">
+            </div>
+            <div class="column">
+            </div>
+            <div class="column">
+                <div class="ui card" style="margin-left: 200px;">
+                    <div class="center aligned content">
+                        <div class="right floated meta"><i class="window close icon"></i></div>
+                      <div class="ui header">
+                        Get help from us!
+                      </div>
+                      <div class="description">
+                        Talk to one of our skilled migrant counsellors
+                      </div>
+                    </div>
+                    <div class="extra center aligned content">
+                        <div class="ui large button" style="background-color: #E7CC8F;">帮我</div>
+                    </div>
+                  </div>
+            </div>
+          </div>
+          
+
+    </div>
+
     <div class="ui vertical inverted masthead center aligned segment">
       <div class="ui container">
 
@@ -189,7 +248,6 @@
             <a class="item" href="index.html">Home</a>
             <a class="item">About</a>
             <a class="active item">Subscribe</a>
-            <a class="item">Past Boxes</a>
             <a class="item">Gift</a>
             <div class="right menu">
               <a class="active item">
@@ -203,37 +261,50 @@
       </div>
 </div>
 
+      <div class="ui vertical stripe segment">
+          <div class="ui text container">
+            <h3 class="ui header">3 Month Subscription</h3>
+            <img src="https://placekitten.com/150/150">
+            <p>We pride ourselves in providing you the best from only the highest quality suppliers.</p>
+            <img id="test" class="ui small bordered image" style="border-radius: 10px;" src="alipay_logo.png">
+          </div>
+        </div>
+      
 
 
-<div class="ui vertical stripe segment">
-    <div class="ui text container">
-      <h3 class="ui header">3 Month Subscription</h3>
-      <img src="https://placekitten.com/150/150">
-      <p>We pride ourselves in providing you the best from only the highest quality suppliers.</p>
-      <a class="ui large button">Buy</a>
-    </div>
-  </div>
 
-
-  <div class="ui vertical stripe segment">
-      <div class="ui text container">
-        <h3 class="ui header">6 Month Subscription</h3>
-        <img src="https://placekitten.com/150/150">
-        <p>We pride ourselves in providing you the best from only the highest quality suppliers.</p>
-        <a class="ui large button">Buy</a>
-      </div>
-    </div>
-  
+        <div class="ui mini modal test">
+            <i class="close icon"></i>
+            <div class="header">
+              Your transaction has been processed 
+            </div>
+            <div class="actions">
+              <div class="ui positive right labeled icon button">
+                Ok
+                <i class="checkmark icon"></i>
+              </div>
+            </div>
+          </div>
     
-    <div class="ui vertical stripe segment">
-      <div class="ui text container">
-        <h3 class="ui header">Custom Subscription</h3>
-        <img src="https://placekitten.com/150/150">
-        <p>We pride ourselves in providing you the best from only the highest quality suppliers.</p>
-        <a class="ui large button">Buy</a>
-      </div>
-    </div>
-  
+      
+        <div class="ui vertical stripe segment">
+            <div class="ui text container">
+              <h3 class="ui header">6 Month Subscription</h3>
+              <img src="https://placekitten.com/150/150">
+              <p>We pride ourselves in providing you the best from only the highest quality suppliers.</p>
+              <img id="test" class="ui small bordered image" style="border-radius: 10px;" src="alipay_logo.png">
+            </div>
+          </div>
+        
+          
+          <div class="ui vertical stripe segment">
+            <div class="ui text container">
+              <h3 class="ui header">Custom Subscription</h3>
+              <img src="https://placekitten.com/150/150">
+              <p>We pride ourselves in providing you the best from only the highest quality suppliers.</p>
+              <img id="test" class="ui small bordered image" style="border-radius: 10px;" src="alipay_logo.png">
+            </div>
+          </div>
 
     <div class="ui vertical footer segment">
       <div class="ui container">
@@ -261,6 +332,20 @@
 
 
   </div>
+
+  <!-- Swiper JS -->
+  <script src="./swiper.min.js"></script>
+
+  <!-- Initialize Swiper -->
+  <script>
+    var swiper = new Swiper('.swiper-container', {
+      navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+      },
+    });
+  </script>
+
 
 
 </body>
