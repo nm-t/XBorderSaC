@@ -153,7 +153,8 @@
 }
   </style>
 
-  <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="./semantic/dist/semantic.min.js"></script>
   <script src="./semantic/dist/components/visibility.js"></script>
   <script src="./semantic/dist/components/sidebar.js"></script>
   <script src="./semantic/dist/components/transition.js"></script>
@@ -182,6 +183,15 @@
           .sidebar('attach events', '.toc.item')
           ;
 
+
+          $("#test").click(function(){
+            $(".test").modal('show');
+          });
+          $(".test").modal({
+            closable: true
+          });
+
+
       })
       ;
   </script>
@@ -191,6 +201,20 @@
 
   <!-- Page Contents -->
   <div class="pusher">
+
+      <div class="ui mini modal test">
+          <i class="close icon"></i>
+          <div class="header">
+            Your transaction has been processed 
+          </div>
+          <div class="actions">
+            <div class="ui positive right labeled icon button">
+              Ok
+              <i class="checkmark icon"></i>
+            </div>
+          </div>
+        </div>
+
 
     <div class="ui fixed bottom sticky">
 
@@ -221,14 +245,16 @@
           
 
     </div>
+
+
+
     <div class="ui vertical inverted masthead center aligned segment">
         <img style="position: absolute; margin-top: 20px; margin-left: 20px;" class="ui small image" src="8oxLogoSVG(1).svg">
       <div class="ui container">
 
         <div class="ui large secondary inverted pointing menu">
           <div class="right item">
-            <a class="ui inverted button">Log in</a>
-            <a class="ui inverted button">Sign Up</a>
+            <span>Welcome Rachel! &nbsp; &nbsp; &nbsp; <img class="ui mini image" src="alipay-logo.png"></span>
           </div>
         </div>
 
@@ -239,7 +265,7 @@
             </a>
             <a style="display: none;"class="active item"><img class="ui tiny image" src="8oxLogoSVG(1).svg"> </a>
             <a class="item">About</a>
-            <a class="item" href="buy.html">Subscribe</a>
+            <a class="item">Subscribe</a>
             <a class="item">Gift</a>
             <div class="right menu">
               <a class="active item">
@@ -253,6 +279,8 @@
       </div>
 
     </div>
+
+
     <div class="ui center aligned masthead vertical" style="display: flex;">
       <!-- Swiper -->
       <div class="swiper-container">
@@ -262,7 +290,7 @@
                 <img class="ui large centered image" src="8oxLogoSVG(1).svg">
               <h3 class="ui header" style="padding-bottom: 20px; color: #E7CC8F;">The #1 Chinese life migration assistant</h3>
                 
-                <a class="ui large button" href="buy.html">Subscribe
+                <a class="ui large button">Subscribe
                     <i class="right arrow icon"></i></a>
             </div>
           </div>
@@ -303,7 +331,7 @@
 
             <div style="padding-bottom: 50px;"></div>
 
-            <button class="huge ui button" href="buy.html">
+            <button class="huge ui button">
               Learn more
             </button>
           </div>
@@ -329,8 +357,7 @@
                   </div>
                 </div>
                 <div class="ui bottom attached button">
-                  <i class="add icon"></i>
-                  Subscribe
+                  <img id="test" class="ui small centered bordered image" style="border-radius: 10px;" src="alipay_logo.png">
                 </div>
               </div>
               <div class="ui centered card">
@@ -344,8 +371,7 @@
                   </div>
                 </div>
                 <div class="ui bottom attached button">
-                  <i class="add icon"></i>
-                  Subscribe
+                    <img id="test" class="ui small centered bordered image" style="border-radius: 10px;" src="alipay_logo.png">
                 </div>
               </div>
               <div class="ui centered card">
@@ -359,8 +385,7 @@
                   </div>
                 </div>
                 <div class="ui bottom attached button">
-                  <i class="add icon"></i>
-                  Subscribe
+                    <img id="test" class="ui small centered bordered image" style="border-radius: 10px;" src="alipay_logo.png">
                 </div>
               </div>
             </div>
